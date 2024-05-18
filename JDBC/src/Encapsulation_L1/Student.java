@@ -1,6 +1,8 @@
 package Encapsulation_L1;
 
-public class Student {
+import Inheritance_L2.Animal;
+
+public class Student  {
     public static int noOfStudents;
     public String name;
     public int age;
