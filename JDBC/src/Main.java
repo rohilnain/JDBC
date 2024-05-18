@@ -1,7 +1,15 @@
+import Encapsulation_L1.Student;
+
 public class Main {
     public static void main(String[] args) {
-        String s="priya";
-        String p=new String("priya using new keyword");
-        System.out.println(s);
+        Student student=new Student();
+        student.printStudent();
+
+        Student student2=new Student("Nikita Deswal",24);
+        student2.printStudent();
+
+        System.out.println(Student.noOfStudents);
+
+
     }
 }
