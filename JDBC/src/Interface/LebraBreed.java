@@ -14,6 +14,6 @@ public class LebraBreed implements LebraDog{
 
     @Override
     public void dogBreedSound() {
-        System.out.println("frankfurt breed sound in lebra dog family");
+        System.out.println("frankfurt breed sound in lebra   dog family");
     }
 }
